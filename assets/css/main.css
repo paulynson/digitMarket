@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif !important;
+font-weight: 300;
+}
+
+html{
+font-family: 'Poppins', sans-serif !important;
+max-width: 1440px;
+width: 100%;
+clear: both;
+margin: 0 auto;
+box-sizing: border-box;
+}
+
+/* .pColor{
+
+}
+
+.bColor{
+
+} */
+
+.btn-outline-purp{
+color: #ffffff;
+border-color: #ffffff;
+border-radius: 50px 10px 50px 50px;
+}
+
+.btn-outline-purp:hover{
+color: #ffffff;
+background-color: #bd57f0;
+}
+
+.btn-purp{
+color: #ffffff;
+background-color: #9932CC;
+border-radius: 50px 10px 50px 50px;
+padding: 10px 20px;
+}
+
+.btn-purp:hover{
+color: #ffffff;
+background-color: #6183e6;
+}
+
+.navbar-brand{
+color: #ffffff !important;
+font-weight: 500;
+}
+
+.navbar-brand:hover{
+color: #beccf5 !important;
+}
+
+.navbar-nav {
+display: flex;
+flex-direction: column;
+padding-left: 0;
+margin-bottom: 0;
+list-style: none;
+margin-left: auto !important;
+}
+
+.bg-light {
+background-color: #9932CC!important;
+}
+
+.btnMargin{
+margin-left: 50px;
+}
+
+.nav-item{
+margin: 0 5px;
+}
+
+.nav-link{
+font-weight: 400 !important;
+color: #ffffff !important;
+}
+
+.nav-link:hover{
+color: #000000 !important;
+}
+
+@media (max-width: 992px){
+.btnMargin{
+margin-left: 0;
+margin-top: 10px;
+}
+}
+
+/* hero section */
+
+.hero{
+margin-top: 100px;
+position: relative;
+}
+
+.hero-img{
+border-radius: 84% 86% 86% 84% / 27% 44% 76% 53%;
+}
+
+.lHand{
+position: relative;
+}
+
+.rHand{
+border-radius: 84% 86% 86% 84% / 27% 44% 76% 83%;;
+background-image: linear-gradient(to right top, #709ee2, #6183e6, #7371e4, #9567eb, #b14ee2);
+}
+
+.lHand h1{
+font-size: 60px;
+color: #9932CC;
+font-weight: 600;
+letter-spacing: 1px;
+}
+
+svg{
+width: 300px;
+height: 300px;
+position: absolute;
+top: 0;
+right: 0;
+z-index: -1;
+filter: blur(2px);
+}
+
+/* second phase */
+
+
+
+.phase2{
+padding: 50px 0;
+position: relative;
+box-sizing: border-box;
+}
+
+.phase2-content{
+position: absolute;
+top: 50%;
+left: 40%;
+transform: translate(-50%, -50%);
+}
+
+.carousel-caption{
+color: #9932CC !important;
+background-color: #000;
+background-color: rgba(0,0,0,0.8);
+}
+
+.carousel-item img{
+height: 500px !important;
+}
+
+/* loading */
+
+.loading { 
+background-repeat: no-repeat !important;
+background-position: center;
+background-size: cover;
+width:100vw;
+height: 100vh;
+background-color: #fff;
+z-index: 10001;
+position: fixed;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
