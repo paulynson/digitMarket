@@ -1,0 +1,1 @@
+Design For Digital Mini Static Website
