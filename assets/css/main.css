@@ -174,7 +174,7 @@ background-color: rgba(0,0,0,0.8);
 }
 
 .carousel-item img{
-height: 500px !important;
+height: 300px !important;
 }
 
 /* loading */
@@ -194,5 +194,10 @@ align-items: center;
 }
 
 
+/* navbar */
 
+.navbar-light .navbar-toggler {
+    /* color: rgba(0,0,0,.55); */
+    border: 0 !important;
+}
 
