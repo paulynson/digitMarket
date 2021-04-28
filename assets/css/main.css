@@ -99,24 +99,29 @@ margin-top: 10px;
 
     .phase2{
         padding: 50px 0;
-        /* position: relative; */
         box-sizing: border-box;
         }
         
         .phase2-content{
         position: block !important;
         position: relative !important;
-        /* height: 500px; */
         box-sizing: border-box;
         padding-left:50px;
         margin: 5px 0 !important;
-        /* background-color: #00f; */
-        /* top: 50%;
-        left: 40%;
-        transform: translate(-50%, -50%); */
         }
 
+.sphase2{
+display: flex;
+flex-direction: column-reverse !important;
 }
+
+}
+
+.jumbotron{
+    padding:2rem 1rem;
+    margin-bottom:2rem;
+    border-radius:.3rem
+    }
 
 /* hero section */
 
@@ -157,20 +162,6 @@ filter: blur(2px);
 
 /* second phase */
 
-
-
-.phase2{
-padding: 50px 0;
-position: relative;
-box-sizing: border-box;
-}
-
-.phase2-content{
-position: absolute;
-top: 50%;
-left: 40%;
-transform: translate(-50%, -50%);
-}
 
 .carousel-caption{
 color: #9932CC !important;
