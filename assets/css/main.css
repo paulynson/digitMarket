@@ -96,6 +96,26 @@ margin-top: 10px;
 .carousel-item img{
     height: 300px !important;
     }
+
+    .phase2{
+        padding: 50px 0;
+        /* position: relative; */
+        box-sizing: border-box;
+        }
+        
+        .phase2-content{
+        position: block !important;
+        position: relative !important;
+        /* height: 500px; */
+        box-sizing: border-box;
+        padding-left:50px;
+        margin: 5px 0 !important;
+        /* background-color: #00f; */
+        /* top: 50%;
+        left: 40%;
+        transform: translate(-50%, -50%); */
+        }
+
 }
 
 /* hero section */
