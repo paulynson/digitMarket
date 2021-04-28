@@ -92,6 +92,10 @@ color: #000000 !important;
 margin-left: 0;
 margin-top: 10px;
 }
+
+.carousel-item img{
+    height: 300px !important;
+    }
 }
 
 /* hero section */
@@ -173,5 +177,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+
+
 
 
