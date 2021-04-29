@@ -227,11 +227,14 @@ transition: .3s ease-in;
 display: flex;
 align-items: center;
 justify-content: center;
-background-color:#d49cf0;
 }
 
 .play{
     padding: 5px;
     border-radius: 50px;
-border:1.5px solid #d49cf0;
+}
+
+.playbtn{
+    width: 40px;
+    height: 40px;
 }
