@@ -206,3 +206,17 @@ align-items: center;
     border: 0 !important;
     outline: 0 !important;
 }
+
+.carol{
+    display: flex !important;
+justify-content: center !important;
+    align-items: center !important;
+}
+
+.play:hover{
+transform: scale(1.1);
+transition: .3s ease-in-out;
+display: flex;
+align-items: center;
+justify-content: center;
+}
