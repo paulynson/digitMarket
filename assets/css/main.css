@@ -211,12 +211,27 @@ align-items: center;
     display: flex !important;
 justify-content: center !important;
     align-items: center !important;
+    align-content: center;
+}
+
+.cta{
+    display: flex !important;
+        align-items: center !important;
+        align-content: center;
+        box-sizing: border-box;
 }
 
 .play:hover{
 transform: scale(1.1);
-transition: .3s ease-in-out;
+transition: .3s ease-in;
 display: flex;
 align-items: center;
 justify-content: center;
+background-color:#d49cf0;
+}
+
+.play{
+    padding: 5px;
+    border-radius: 50px;
+border:1.5px solid #d49cf0;
 }
