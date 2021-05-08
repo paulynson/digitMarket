@@ -21,7 +21,15 @@ html {
   color: #9932cc !important;
 }
 
+/* .bColor-light {
+  background-color: #d5c7dd4f;
+} */
+
 .bColor {
+  background-color: #9932cc !important;
+}
+
+.bColor-2 {
   background-color: #9932cc !important;
 }
 
@@ -41,6 +49,10 @@ html {
   background-color: #9932cc;
   border-radius: 50px 10px 50px 50px;
   padding: 10px 20px;
+}
+
+.bPurp {
+  background-color: #6183e6;
 }
 
 .btn-purp:hover {
@@ -270,4 +282,13 @@ svg {
   position: absolute;
   bottom: 5px;
   transform: translate(-50%);
+}
+
+.mt-6 {
+  margin-top: 120px !important;
+}
+
+/* Form */
+textarea {
+  resize: none;
 }
