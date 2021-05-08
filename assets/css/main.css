@@ -17,6 +17,10 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  position: relative;
+}
+
 .pColor {
   color: #9932cc !important;
 }
@@ -291,4 +295,34 @@ svg {
 /* Form */
 textarea {
   resize: none;
+}
+
+/* arrow to top */
+
+.mtop {
+  cursor: pointer;
+  background-color: #6183e6;
+  color: #ffffff;
+  border-radius: 50px;
+  position: fixed;
+  z-index: 1111;
+  right: 5px;
+  bottom: 5px;
+  display: none;
+  transform: translate(-50%, -50%);
+  transition: 0.3s ease-in-out;
+}
+
+.mtop:hover {
+  transition: 0.3s ease-in-out;
+  color: #ff6600;
+}
+
+.mtop.active {
+  display: block !important;
+  transition: 0.3s ease-in-out;
+}
+
+.bi-arrow-up-short {
+  font-size: 30px;
 }
