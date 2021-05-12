@@ -336,3 +336,9 @@ textarea {
   width: 100%;
   height: 100vh;
 }
+.lnk {
+  color: white;
+}
+.lnk:hover {
+  color: #eee;
+}
